@@ -3,18 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@craco/craco": "^5.6.4",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "@types/cesium": "^1.67.4",
+    "cesium": "^1.69.0",
+    "craco-cesium": "^1.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "resium": "^1.11.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +34,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "html-webpack-include-assets-plugin": "^2.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "html-webpack-tags-plugin": "^2.0.17",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0"
   }
 }
