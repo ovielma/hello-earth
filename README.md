@@ -5,4 +5,4 @@ This project will utilize the open source JavaScript library, CesiumJS, to creat
 The purpose for this project is purely educational.
 
 ## License
-[Apache] (http://www.apache.org/licenses/LICENSE-2.0)
+[Apache](http://www.apache.org/licenses/LICENSE-2.0)
